@@ -1,26 +1,28 @@
 {
   "files": {
     "main.css": "/TeenyTinyExplorersFinalApp/static/css/main.88ba1b5d.chunk.css",
-    "main.js": "/TeenyTinyExplorersFinalApp/static/js/main.5614cf82.chunk.js",
-    "main.js.map": "/TeenyTinyExplorersFinalApp/static/js/main.5614cf82.chunk.js.map",
+    "main.js": "/TeenyTinyExplorersFinalApp/static/js/main.743e7972.chunk.js",
+    "main.js.map": "/TeenyTinyExplorersFinalApp/static/js/main.743e7972.chunk.js.map",
     "runtime-main.js": "/TeenyTinyExplorersFinalApp/static/js/runtime-main.1a5b9938.js",
     "runtime-main.js.map": "/TeenyTinyExplorersFinalApp/static/js/runtime-main.1a5b9938.js.map",
     "static/css/2.383c0125.chunk.css": "/TeenyTinyExplorersFinalApp/static/css/2.383c0125.chunk.css",
-    "static/js/2.43a071b6.chunk.js": "/TeenyTinyExplorersFinalApp/static/js/2.43a071b6.chunk.js",
-    "static/js/2.43a071b6.chunk.js.map": "/TeenyTinyExplorersFinalApp/static/js/2.43a071b6.chunk.js.map",
+    "static/js/2.8e7ffe03.chunk.js": "/TeenyTinyExplorersFinalApp/static/js/2.8e7ffe03.chunk.js",
+    "static/js/2.8e7ffe03.chunk.js.map": "/TeenyTinyExplorersFinalApp/static/js/2.8e7ffe03.chunk.js.map",
     "index.html": "/TeenyTinyExplorersFinalApp/index.html",
     "static/css/2.383c0125.chunk.css.map": "/TeenyTinyExplorersFinalApp/static/css/2.383c0125.chunk.css.map",
     "static/css/main.88ba1b5d.chunk.css.map": "/TeenyTinyExplorersFinalApp/static/css/main.88ba1b5d.chunk.css.map",
-    "static/js/2.43a071b6.chunk.js.LICENSE.txt": "/TeenyTinyExplorersFinalApp/static/js/2.43a071b6.chunk.js.LICENSE.txt",
+    "static/js/2.8e7ffe03.chunk.js.LICENSE.txt": "/TeenyTinyExplorersFinalApp/static/js/2.8e7ffe03.chunk.js.LICENSE.txt",
     "static/media/ExplorerHome.aae43ac2.png": "/TeenyTinyExplorersFinalApp/static/media/ExplorerHome.aae43ac2.png",
     "static/media/Explorers.e0efec6a.PNG": "/TeenyTinyExplorersFinalApp/static/media/Explorers.e0efec6a.PNG",
+    "static/media/explorerhome.aae43ac2.png": "/TeenyTinyExplorersFinalApp/static/media/explorerhome.aae43ac2.png",
+    "static/media/explorers.e0efec6a.png": "/TeenyTinyExplorersFinalApp/static/media/explorers.e0efec6a.png",
     "static/media/outside.41eb6099.mp4": "/TeenyTinyExplorersFinalApp/static/media/outside.41eb6099.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.1a5b9938.js",
     "static/css/2.383c0125.chunk.css",
-    "static/js/2.43a071b6.chunk.js",
+    "static/js/2.8e7ffe03.chunk.js",
     "static/css/main.88ba1b5d.chunk.css",
-    "static/js/main.5614cf82.chunk.js"
+    "static/js/main.743e7972.chunk.js"
   ]
 }
