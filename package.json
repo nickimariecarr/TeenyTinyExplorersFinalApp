@@ -1,6 +1,6 @@
 {
-  "name": "teeny-tiny-explorer",
-  "homepage": "https://github.com/nickimariecarr/TeenyTinyExplorersFinalApp",
+  "name": "TeenyTinyExplorersFinalApp",
+  "homepage": "https://nickimariecarr.github.io/TeenyTinyExplorersFinalApp/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
