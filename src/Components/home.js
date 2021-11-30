@@ -1,10 +1,10 @@
+// use npm run build to deploy 
 import React from 'react';
 import Image from "react-bootstrap/Image";
-import Explorers from '../../src/Explorers.PNG';
+import Explorers from './Explorers.PNG';
 import {Container, Row, Col, Button} from 'react-bootstrap'
-import ExplorerHome from '../../src/ExplorerHome.png';
+import ExplorerHome from './ExplorerHome.png';
 import { Link } from "react-router-dom"; 
-
 
 console.log(Explorers);
 console.log(ExplorerHome);
