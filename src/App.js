@@ -5,6 +5,8 @@ import MainHeader from './Components/MainHeader';
 import outside from './outside.mp4';
 import { useState, useEffect } from "react";
 import axios from "axios";
+import { Link } from 'react-router-dom';
+
 
 import './App.css';
 
@@ -22,19 +24,63 @@ import {Container, Row, Col, Button} from 'react-bootstrap';
 import FindaGroup from './Components/FindaGroup';
 import Signup from './Components/SignUp';
 
-function App() {
+class App extends React.Component{
+  render(){
   return (
-    <div>
-        <div className="A">
+        <div className="App">
+          <div>
           <header className="App-header">
             <video width="100%" height="100%" autoPlay loop defaultMuted playsInline muted>
               <source src={outside} type="video/mp4"/>
             </video>
               <MainHeader />
           </header>
+                    <div>
+ <nav>
+        <ul id="navigation">
+
+          <li>
+            <Link to='./home'>
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to='./about'>
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to='./BecomeaHost'>
+              Become a Host
+            </Link>
+          </li>
+          <li>
+            <Link to='./contact'>
+              Contact
+            </Link>
+          </li>
+          <li>
+            <Link  to='./FindaGroup'>
+              Find a Group
+            </Link>
+          </li>
+          <li>
+            <Link  to='./login'>
+              Login
+            </Link>
+          </li>
+          <li>
+            <Link to='./SignUp'>
+              Sign Up 
+            </Link>
+          </li>
+        </ul>
+      </nav>
+          </div>
+
             <main fluid>
               <Routes>
-                <Route path='/' element={<Home />} />
+                <Route exact path='/' element={<Home />} />
                 <Route path='/home' element={<Home />} />
                 <Route path='/about' element={<About />} />
                 <Route path='/BecomeaHost' element={<BecomeaHost />} />
@@ -56,6 +102,7 @@ function App() {
           </div>
     </div>
   );
+}
 }
 
 export default App;
